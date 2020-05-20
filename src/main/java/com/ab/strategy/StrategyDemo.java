@@ -5,6 +5,15 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+/**
+ * @author Arpit Bhardwaj
+ *
+ * Allows an object, called the subject, maintains a list of its dependents, called observers,
+ * and notifies them automatically of any state changes, usually by calling one of their methods.
+ *
+ * It is mainly used to implement distributed event handling systems, in "event driven" software.
+ */
+
 public class StrategyDemo {
     public static void main(String[] args) {
         Person  arpit = new Person(28,"Arpit", "235325325");

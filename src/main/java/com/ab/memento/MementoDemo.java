@@ -2,6 +2,11 @@ package com.ab.memento;
 
 import java.io.*;
 
+/**
+ * @author Arpit Bhardwaj
+ *
+ * Provides the ability to restore an object to its previous state (undo via rollback).
+ */
 
 public class MementoDemo {
     public static void main(String[] args) throws IOException, ClassNotFoundException {

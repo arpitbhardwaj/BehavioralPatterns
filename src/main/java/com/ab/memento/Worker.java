@@ -1,5 +1,9 @@
 package com.ab.memento;
-//originator
+/**
+ * @author Arpit Bhardwaj
+ *
+ * Orginator
+ */
 public class Worker {
     private String name;
     private String address;
